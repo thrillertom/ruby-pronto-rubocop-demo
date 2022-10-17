@@ -6,6 +6,5 @@ class Comment < ApplicationRecord
     self.statuses = :resolved
   end
 
-  def set_resolve
-  end
+  def set_resolve; end
 end
