@@ -7,4 +7,8 @@ class Comment < ApplicationRecord
   end
 
   def set_resolve; end
+
+  def get_author
+    self.author
+  end
 end
