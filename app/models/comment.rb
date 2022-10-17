@@ -1,8 +1,8 @@
 class Comment < ApplicationRecord
-  attr :author, :text
-  enum status: { draft: 0, resolved: 1}
+  attr :author, :text, :status
+  enum commenct_status: { draft: 0, resolved: 1}
 
   def resolve
-    status = :resolved
+    status = :commenct_status[:resolved]
   end
 end
