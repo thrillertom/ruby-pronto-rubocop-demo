@@ -1,8 +1,5 @@
 class Comment < ApplicationRecord
-  attr :author, :text
-  enum status: { draft: 0, resolved: 1}
+  attr :author, :text, :status
 
-  def get_resolve
-    self.statuses = :resolved
-  end
+  enum comment_status: { draft: 0, resolved: 1 }
 end
