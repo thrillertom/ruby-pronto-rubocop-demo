@@ -266,6 +266,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  faraday
   faraday-retry
   jbuilder (~> 2.7)
   listen (~> 3.2)
